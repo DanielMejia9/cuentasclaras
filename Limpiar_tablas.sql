@@ -1,0 +1,5 @@
+﻿truncate table tb_asignacion_trabajos_actuales
+truncate table tb_pagos
+truncate table tb_solicitudes
+truncate table tb_vizualizacion_oferta
+truncate table tb_trabajos_actuales

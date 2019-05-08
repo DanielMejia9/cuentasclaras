@@ -1,0 +1,502 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#radio {float: left;clear: left;margin: 3px 0px 0px 160px;padding: 1px;}
+div#conteRadio {
+    height: 150px;
+    width: 100%;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+/************Login************************/
+div#login { width: 400px;  height: 200px; background-color: rgb(74, 199, 237);  padding: 47px 19px 9px 44px;  margin: 98px 0px 0px 64px;}
+div#imageLogo {  margin: 7px;  float: left;}
+div#contenedorlogin { width: 900px; margin-right: auto; margin-left: auto;}
+div#toplogin { float: left; clear: left; width: 100%; background-color: rgb(20, 65, 99); margin: 10px 0px; height: 80px;}
+div#cln1 {  float: left;  clear: left;  width: 577px;  background-color: #f3f5f7;  height: 512px;  border-right: 12px solid #4AC7ED;  margin-right: 11px;}
+div#cln2 {  float: left;  width: 300px;  height: 453px;  background-color: rgb(21, 66, 100);  padding: 60px 0px 0px 0px;}
+div#footer {  float: left;  clear: left;  width: 100%;  height: 80px;  background-color: rgb(74, 199, 237);  margin: 10px 0px 0px 0px;}
+div#tituloLogin {color: white; font-size: 2em; margin: 7px 0px 10px 10px; position: relative; height: 70px; padding: 14px 0px 0px 0px;  font-family: cursive;}
+input#btnEntrar {  background-color: rgb(245, 167, 63);  border: 0;  border-radius: 14px; height: 41px; color: white; font-weight: bold;  font-size: 20px;  margin: 10px 0px 0px 0px;}
+input#usuario,input#password { border-radius: 16px; border: 1px solid #C0C0C0; height: 35px; padding: 0px 0px 0px 21px; width: 337px; margin: 0px 0px 10px 0px;}
+/************************************/
+.fila.tabla.filaContenido:hover { background: #FFFFFF;}
+.contenido { text-align: justify;}
+.fila.tabla.titulo {background: rgb(44, 68, 99); color: white; font-weight: bold;}
+.fila {border-top: 1px solid #ccc;}
+.columna {/*border-left: 1px solid #ccc;*/}
+.fila.tabla {float: left; clear: left;}
+.columna.tabla.corto { float: left;  width: 40px; padding: 10px; text-align:center}
+.columna.tabla.medio { float: left;  width: 80px; padding: 10px; text-align:center}
+.columna.tabla.largo { float: left;  width: 200px; padding: 10px;word-break: break-all; text-align:center}
+.columna.tabla.largo.requerimiento { float: left;  width: 422px; padding: 10px;word-break: break-all; text-align:center}requerimiento
+span.leerMas {font-weight: bold;color: #2C4463;}
+option.optSel {background: rgb(57, 201, 227) !important;color: white;}
+ul#nav li { float: left; clear: left;}
+input { width: 90%;}
+textarea {width: 91%;}
+div#logo img {float: left;  margin: 0px 7px 0px 28px;}
+div#tituloSistem {color: white; font-size: 3em; margin: 0px 0px 10px 10px; position: relative; height: 70px; padding: 14px 0px 0px 0px;  font-family: cursive;}
+div#top {background-color: #2c4463;height: 80px;}
+div#columna2 {width: 85%; float: left;}
+div#columna1 {width: 15%;float: left;}
+div#contenedor {margin-left: auto;margin-right: auto;}
+div#pantalla {width: 100%;max-width: 100%;min-width: 500px;}
+select { border-radius: 5px; padding: 5px;}
+textarea {border-radius: 5px; border: 1px solid #ccc;}
+div#fila { float: left; clear: left; width: 100%; margin: 5px;}
+div#contenedor input {border-radius: 5px;border: 1px solid #ccc; height: 22px;}
+span.desc {float: left;clear: left;width: 100%;  margin: 10px;}
+body{font-family: Arial, Helvetica, sans-serif; font-size:14px;}
+td,tr{font-family: Arial, Helvetica, sans-serif; font-size:14px;}
+table{ font-family:Verdana, Geneva, sans-serif; font-size:14px;}
+table,td,RegClien {padding: 1px 4px 1px 3px;}
+th {background: #2C4463; font-weight: bold;color: white;}
+tr.fila:nth-child(odd)		{ background-color:#F3F3F3; }
+tr.fila:nth-child(even)		{ background-color:#fff; }
+tr.fila:hover{background:#CEF0F1; color:black}
+
+a:link{text-decoration:none; color:black;}
+a:active{text-decoration:none; color:black;}
+a:visited{text-decoration:none; color:black;}
+a:hover{text-decoration: none; color:black;}
+
+.link.link{text-decoration:none; color:black;}
+.link.active{text-decoration:none; color:black;}
+.link.visited{text-decoration:none; color:black;}
+.link.hover{text-decoration:underline; color:black;}
+h1 {margin: 0; padding-bottom: 8px;color: #025A8D;font-size: 1.818em;}
+
+td.c1 {text-align: right;padding: 0px 25px 0px 0px;}
+td.c2 {padding: 0px 1px 0px 31px;}
+td.c3 {padding: 0px 0px 0px 30px;}
+td.c4 {padding: 0px 0px 0px 29px;}
+
+input#btnFactu {width: 100px;margin: 10px;height: 30px;}
+
+h2 {
+margin: 0;
+padding-bottom: 8px;
+color: #025A8D;
+}
+
+#linea{
+width:100%;
+height:30px;
+margin:0px 0px 0px 0px;
+border-top: 0px solid Silver; 
+border-bottom: 0px solid Silver; 
+border-right : 0px solid Silver; 
+border-left : 0px solid Silver;
+background: #000;/*#002*/
+color:white;
+text-align:left;
+}
+
+#logo{
+	width:100%;
+	}
+
+#liDet{
+	width:100%;
+	height:20px;
+	/*background-image:url(../images/ico_linea.png);*/
+	font-weight:bold;
+	color:#FFFFFF;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	margin: 0px 0px 0px 2%;
+	}
+	
+#imagen{
+height:600px;
+width:708px;
+border-bottom:#000 1px;
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+border-top: 0px solid Silver; 
+border-bottom: 0px solid Silver; 
+border-right : 0px solid Silver; 
+border-left : 0px solid Silver;
+background:url(../login.png) /*no-repeat*/;
+}
+
+#absolute {
+	height: 600px;
+	width: 100%;
+	position: absolute;
+	margin:0px;
+	background:url(../images/fondo_sitio.png);
+	left:0px;
+	top:0px;
+
+}
+
+#cuerpo_home {
+height: 432px;
+width: 700px;
+margin: 136px 20px 20px 20px;
+border: 1px solid Silver;
+border-radius: 5px;
+}
+
+.cajaUser {
+margin: 20px 20px 20px 20px;
+width: 347px;
+border: 1px silver solid;
+border-radius: 5px;
+padding: 21px;
+background: rgb(235, 235, 235);
+height: 158px;
+}
+
+.descFact{
+	background: whitesmoke;
+border-bottom: 1px #ccc solid;
+border-left: 1px #ccc solid;
+border-right: 1px #ccc solid;
+	
+	
+	}
+
+
+
+.btnAccss {
+border: 1px silver solid;
+border-radius: 5px;
+margin: 10px 10px 10px 10px;
+padding: 10px 25px 10px 10px;
+}
+
+
+.txt {
+margin-bottom: 93px;
+margin-left: 26px;
+}
+
+.regUser {background: none;border-radius: 0px 0px 5px 5px;padding: 1px 4px 1px 3px; color:rgb(40, 40, 40);}
+
+.tbRegClie {background: white;border-radius: 10px 10px 10px 10px;border: 0px rgb(216, 216, 216) solid;padding: 1px 4px 1px 3px;margin: 0px 0px 0px 0px; color:rgb(40, 40, 40);}
+
+.tbRegUsu {background: white;border-radius: 10px 10px 10px 10px;border: 0px rgb(216, 216, 216) solid;padding: 1px 4px 1px 3px;margin: 167px 0px 100px 0px;}
+
+#cuerpo_general{height:100%;width:100%;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+
+div#contenedor {background: rgb(235, 235, 235);width: 95%;margin: 11px 0px 50px 0px;padding: 10px 0px 20px 0px;border-radius: 10px;border: 1px silver solid;}
+	div#sub-contenedor {width: 90%;background: white;height: auto;border: 1px rgb(189, 189, 189) solid;border-radius: 2px;margin: 10px;position: relative;/* float: left; */}
+
+
+div#contenedor-home {background: rgb(235, 235, 235);width: 1200px;height:500px; margin: 11px 0px 50px 0px;padding: 10px 0px 20px 0px;border-radius: 10px;border: 1px silver solid;}
+	div#sub-contenedor-home {width: 900px;background: white;height: 400px;border: 1px rgb(189, 189, 189) solid;border-radius: 0px;margin: 10px;position: relative;float: left;}
+
+
+div#contenedor-cliente {background: rgb(235, 235, 235);width: 95%;margin: 11px 0px 0px 0px;padding: 10px 0px 20px 0px;border-radius: 10px;/*border: 1px silver solid;*/  height: 100%; max-height: 15000px !important; min-height: 200px;   overflow-x: auto;}
+	div#sub-contenedor-cliente{width: 1200px;background: none;height: 100%;border: 0px rgb(189, 189, 189) solid;border-radius: 2px;margin: 10px;position: relative;/* float: left; */}
+	div#sub-contenedor-usuario{ width: 1290px; background: none; height: 100%; border: 0px rgb(189, 189, 189) solid; border-radius: 2px; margin: 10px; position: relative; /* float: left; */}
+	div#paginacion {height: 61px;margin: 20px;}
+
+div#paginacion {/* float: left; width: 900px;*/position: relative; clear: left; }
+
+
+div#tilulos {clear: left;background: white;border: 1px silver solid;width: 93%;text-align: left;padding: 0px 0px 0px 28px;margin: 10px 0px 0px 0px;height:50px;font-size: 10pt;border-radius: 10px;color: #025A8D;}	
+div#botenes {float: right;width: 263px;height: 38px;margin: 2px 0px 0px 0px;}
+div#suma {float: right;width: 263px;height: 38px;margin: 2px 0px 0px 0px; padding: 14px 0px;}
+
+input#buscaImagen {width: 150px;}
+
+
+.divFormulario{margin: 4px;font-size: 10pt;font-family: verdana; color:rgb(76, 76, 76)}
+	.divFormulario input[type="text"] {height: 17px;}
+	
+	
+	
+.ico_acceso{border: 1px silver solid; border-radius:10px;height:140px; cursor:pointer;
+-webkit-transition: top 0.5s ease, right 0.5s ease, bottom 0.5s ease, left 0.5s ease, padding 0.5s ease, margin 0.5s ease, border-radius 0.5s ease;
+	-moz-transition: top 0.5s ease, right 0.5s ease, bottom 0.5s ease, left 0.5s ease, padding 0.5s ease, margin 0.5s ease, border-radius 0.5s ease;
+	-o-transition: top 0.5s ease, right 0.5s ease, bottom 0.5s ease, left 0.5s ease, padding 0.5s ease, margin 0.5s ease, border-radius 0.5s ease;
+	transition: top 0.5s ease, right 0.5s ease, bottom 0.5s ease, left 0.5s ease, padding 0.5s ease, margin 0.5s ease, border-radius 0.5s ease;
+padding: 20px 0px 0px 0px;
+}
+	.ico_acceso:hover{top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 100px;
+	box-shadow: 4px 6px 9px #ccc;
+	/*background: rgb(184, 184, 184)*/
+	background: -moz-radial-gradient(50% 50%, circle cover, #FEFEFE 0, #787878 100%);/* FF3.6+ */
+background: -webkit-radial-gradient(50% 50%, circle cover, #FEFEFE 0, #787878 100%);/* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(50% 50%, circle cover, #FEFEFE 0, #787878 100%);/* Opera 11.10+ */
+background: -ms-radial-gradient(50% 50%, circle cover, #FEFEFE 0, #787878 100%);/* IE10+ */
+background: radial-gradient(50% 50%, circle cover, #FEFEFE 0, #787878 100%);/* W3C */
+	;}
+
+div#contenedor_fact {
+background: rgb(235, 235, 235);
+width: 95%;
+margin: 11px 0px 50px 0px;
+padding: 10px 0px 20px 0px;
+border-radius: 10px;
+border: 1px silver solid;
+height:600px;
+}
+
+div#sub-contenedor_fact {
+width: 900px;
+background: white;
+height: 400px;
+border: 1px rgb(189, 189, 189) solid;
+border-radius: 10px;
+margin: 10px;
+position: relative;
+height:570px;
+/* float: left; */
+}
+
+#boton{
+background: url(../images/into.png) no-repeat	right;
+width:50px;
+}
+
+
+select#sele_clie {
+width: 266px;
+}
+
+#cuerpo_calculo{
+height:560px;
+width:730px;
+margin:0px 0px 0px 250px;
+padding:0px 0px 0px 60px;
+border-top: 0px solid Silver; 
+border-bottom: 0px solid Silver; 
+border-right : 0px solid Silver; 
+border-left : 0px solid Silver;
+background:url(imagen/fondo_calculo.png) no-repeat;
+border-radius :5px;
+}
+
+#cuerpo_registro{
+height:560px;
+width:730px;
+margin:0px 0px 0px 250px;
+padding:0px 0px 0px 60px;
+border-top: 0px solid Silver; 
+border-bottom: 0px solid Silver; 
+border-right : 0px solid Silver; 
+border-left : 0px solid Silver;
+background:url(imagen/fondo_registro.png) no-repeat;
+border-radius :5px;
+}
+
+#cuerpo_reporte{
+height:560px;
+width:730px;
+margin:0px 0px 0px 250px;
+padding:0px 0px 0px 60px;
+border-top: 0px solid Silver; 
+border-bottom: 0px solid Silver; 
+border-right : 0px solid Silver; 
+border-left : 0px solid Silver;
+background:url(imagen/fondo_reporte.png) no-repeat;
+border-radius :5px;
+}
+
+
+
+
+#pie{
+height:15px;
+width:100%;
+float:both;
+margin: 0px 0px 0px 0px;
+font-size:11px;
+color:#999;
+font-family:Arial, Helvetica, sans-serif;
+display:block;
+}
+
+.colorTabla {
+	background:#666;
+		color:#FFF;
+		border-radius:5px;
+	}
+
+.letraNegrita{
+	font-weight:bold;
+}
+	
+.letraNormal{
+	font-weight:100;
+	text-align:left;
+
+}
+	
+#fondoTabla{
+	margin:0px 0px 0px 250px;
+	position:absolute;
+	width:850px;
+	height:auto;
+	border-top: 1px solid Silver; 
+	border-bottom: 1px solid Silver; 
+	border-right : 1px solid Silver; 
+	border-left : 1px solid Silver;
+	border-radius: 5px;
+}
+
+#fondoTabla h3{
+	text-align:left;
+	font-size:30px;
+	}
+	
+
+#cajaOpcion{
+	float:left;
+	height:50px;
+	width:250px;
+	border-top: 0px solid Silver; 
+	border-bottom: 0px solid Silver; 
+	border-right : 0px solid Silver; 
+	border-left : 0px solid Silver;	
+}
+
+.atrasAllado{
+	float:left;
+}
+
+
+
+#fondoConsulta{
+	margin:0px 0px 0px 250px;
+	position:absolute;
+	width:850px;
+	height:auto;
+	border-top: 1px solid Silver; 
+	border-bottom: 1px solid Silver; 
+	border-right : 1px solid Silver; 
+	border-left : 1px solid Silver;
+	border-radius: 5px;
+}
+
+#fondoConsulta h3{
+	text-align:left;
+	font-size:30px;
+	
+}
+
+#cuerpo_interno{
+	background:url(imagen/fondo_internos.png) no-repeat;
+	margin:0px 0px 0px 250px;
+	position:absolute;
+	width:850px;
+	height:560px;
+}
+
+#cuerpo_interno2{
+	background:url(imagen/fondo_internos.png) no-repeat;
+	margin:0px 0px 0px 250px;
+	position:absolute;
+	width:850px;
+	height:560px;
+}
+
+.tablaCalculo{ 
+	width:800px;
+	border-radius:5px;
+	background: #EAEAEA;
+}
+
+.tablaCalculo input{
+	
+	text-align:right;
+	background: #EAEAEA;
+	border:0px;}
+	
+.colorTabla input{
+	background: #666;
+	border:0px;
+	color:#FFF
+	}
+	
+.colorInput input{
+	border:0px;
+}
+
+
+#btn {
+background: white;
+border: 1px #ccc solid;
+border-radius: 5px;
+padding: 6px;
+cursor: pointer;
+}
+
+#btn {
+  background:  #39C9E3;/*#FF6E1F*/
+  color: white;
+  /* padding: 22px; */
+  margin: 5px;
+  height: 40px !important;
+  font-weight: 700;
+  font-size: 12pt;
+}
+#btn:hover
+{
+	background: #2C4463;
+	}
+.paginado {
+  /*background: #FF6E1F;*/
+  background: #39C9E3;
+  color: white;
+  margin: 5px;
+  height: 40px !important;
+  font-size: 12pt;
+  padding: 6px;
+  border-radius: 5px;
+}
+.paginado:hover
+{
+	background: #2C4463;
+	}
+a.paginado
+{
+	color:white	}
+
+.tbDinami{
+padding:2px 20px 2px 20px;
+}
+
+
+
+
+
+
+.txt_mod{
+	color:#999;
+	font-style:italic;
+	
+	
+	}
+	
+	
+	
+.inputTxt{
+	width:100px;
+	border: 0px;
+	text-align:center;
+	height: 24px;
+	font-size: 12pt;
+		}
+.inputDes{
+	width:500px;
+	border: 0px;
+	text-align:left;
+	height: 24px;
+	font-size: 12pt;
+		}
+		
+		#form_clie > table.descFact {
+border-spacing: 0px;
+}
